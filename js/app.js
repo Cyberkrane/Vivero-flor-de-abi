@@ -1,13 +1,3 @@
-const altura = document.body.scrollHeight - window.innerHeight;
-// const fondo = document.getElementById('fondo');
-
-window.onscroll = () => {
-    const anchoFondo = (window.pageYOffset / altura) * 700;
-    if (anchoFondo <= 100) {
-        fondo.style.width = anchoFondo + '%';
-    }
-}
-
 var cactus = [{
         id: 101,
         img: './img/cactus/cs1.jpeg',
@@ -708,7 +698,88 @@ var insumos = [{
 
 
 ];
-
+var portaMacetas = [{
+        id: 701,
+        img: './img/pm/pm1.jpg',
+        nombre: 'portaMacetas',
+        descripcion: 'Colgar hierro',
+        descripcion2: 'Soporte de hierro para colgar macetas.',
+        old: '', // precio viejo
+        precio: 289
+    },
+    {
+        id: 702,
+        img: './img/pm/pm2.jpg',
+        nombre: 'portaMacetas',
+        descripcion: 'Porta maceta hierro',
+        descripcion2: 'para Maceta numero 15',
+        old: '', // precio viejo
+        precio: 289
+    },
+    {
+        id: 703,
+        img: './img/pm/pm3.jpg',
+        nombre: 'portaMacetas',
+        descripcion: 'Porta maceta jardinera',
+        descripcion2: 'Maceta numero 35',
+        old: '', // precio viejo
+        precio: 689
+    },
+    {
+        id: 704,
+        img: './img/pm/pm4.jpg',
+        nombre: 'portaMacetas',
+        descripcion: 'Porta maceta redondo hierro',
+        descripcion2: '35cm de alto Maceta numero 15',
+        old: '', // precio viejo
+        precio: 689
+    },
+    {
+        id: 705,
+        img: './img/pm/pm5.jpg',
+        nombre: 'portaMacetas',
+        descripcion: 'Porta maceta hierro',
+        descripcion2: '30cm numero 20',
+        old: '', // precio viejo
+        precio: 789
+    },
+    {
+        id: 706,
+        img: './img/pm/pm6.jpg',
+        nombre: 'portaMacetas',
+        descripcion: 'Porta maceta redondo hierro',
+        descripcion2: '35cm de alto Maceta numero 15',
+        old: '', // precio viejo
+        precio: 689
+    },
+    {
+        id: 707,
+        img: './img/pm/pm7.jpg',
+        nombre: 'portaMacetas',
+        descripcion: 'Porta maceta cuadrado ',
+        descripcion2: ' 29 cm de alto Maceta numero 30',
+        old: '', // precio viejo
+        precio: 789
+    },
+    {
+        id: 708,
+        img: './img/pm/pm8.jpg',
+        nombre: 'portaMacetas',
+        descripcion: 'Porta macetas hierro',
+        descripcion2: 'Largo 33cm Alto 82cm Macetas numero 8 y 15',
+        old: '', // precio viejo
+        precio: 989
+    },
+    {
+        id: 709,
+        img: './img/pm/pm9.jpg',
+        nombre: 'portaMacetas',
+        descripcion: 'Porta maceta hierro',
+        descripcion2: '80cm de largo 34cm de alto Macetas numero 8, 10 y 15',
+        old: '', // precio viejo
+        precio: 989
+    }
+]
 
 //////////////////////////
 /// mostrar catalogo /////

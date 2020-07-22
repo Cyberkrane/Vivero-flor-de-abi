@@ -22,7 +22,7 @@
 <body>
     <!-- ####### inicio PORTADA ######## -->
     <div class="contenido-header">
-        <div class="text-center" id="fondo">
+        <div class="text-center">
             <img src="./img/titulo.png" alt="">
         </div>
     </div>
@@ -39,8 +39,8 @@
               <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse align-items-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item active bg-viv">
                         <a class="nav-link" href="#catalogo" onclick="mostrarCat(cactus)">Cactus y Suculentas </a>
@@ -69,11 +69,14 @@
                         </div>
                     </div>
                     <li class="nav-item active bg-viv">
+                        <a class="nav-link" href="#catalogo" onclick="mostrarCat(portaMacetas)">Porta macetas</a>
+                    </li>
+                    <li class="nav-item active bg-viv">
                         <a class="nav-link" href="#catalogo" onclick="mostrarCat(insumos)">Insumos para jardineria</a>
                     </li>
                 </ul>
                 <!-- inicio Drop -->
-                <div class="dropdown px-5">
+                <div class="dropdown">
                     <button class="btn bg-viv dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Contacto
                 </button>
